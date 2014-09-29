@@ -138,7 +138,7 @@ test -f $HOME/.zlogout && mv $HOME/.zlogout $HOME/.zlogout.orig
 
 # * Clone the vcsh-home repository
 log "Cloning vcsh-home"
-vcsh clone git://github.com/vdemeester/vcsh-home.git vcsh-home
+vcsh clone git://github.com/gregpardo/vcsh-home.git vcsh-home
 
 # Running mr in interactive mode on the most important one
 log "Getting sh-config first"
