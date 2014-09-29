@@ -142,7 +142,7 @@ vcsh clone git://github.com/vdemeester/vcsh-home.git vcsh-home
 
 # Running mr in interactive mode on the most important one
 log "Getting sh-config first"
-vcsh  clone git://github.com/vdemeester/sh-config.git sh-config
+vcsh clone git@bitbucket.org:gregpardo/vcsh_mr.git mr
 
 # Update in a new shell (benefits the sh-config)
 log "Updating everything in a new shell: $SHELL"
